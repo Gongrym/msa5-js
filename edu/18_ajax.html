@@ -4,45 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AJAX</title>
+    <link rel="stylesheet" href="18_ajax.css" />
+    <scrip src="https://cdn.jsdelivr.net/npm/axios@1.20.0/dist/axios.min.js"></script>
+      <!-- 애초에 바로 위 코드 한줄 저게 뭔지 공부해야함 -->
+      <!-- <> 안에 뭐가 있는건 꺾쇠 안의 포맷을 고수해 알아서 고치라는뜻. 꺾쇠는 지워라 -->
+       <!-- 1.20.0 에서 1은 메이저 ver. 20는 마이너 ver. 0은 patch ver. 메이저가 다르면
+        아예 호환이 안됨. 마이너는 달라져도 호환이 되기도 함 -->
+    <script src="./18_ajax.js" defer></script>
   </head>
 
   <body>
-    <form action="">
-      <!-- form 태그에 속성을 잘 안씀 요즘엔 -->
-
-      <input
-        type="number"
-        name="page"
-        id="page"
-        placeholder="페이지"
-        required
-      />
-
-      <input
-        type="number"
-        name="limit"
-        id="limit"
-        placeholder="출력개수"
-        required
-      />
-
-      <button type="submit">전송</button>
-    </form>
-    <div class="card-container">
-      <div class="card-img"></div>
-      <p class="card-text">1: 아아아아</p>
-    </div>
-    <div class="card-container">
-      <div class="card-img"></div>
-      <p class="card-text">1: 아아아아</p>
-    </div>
-    <div class="card-container">
-      <div class="card-img"></div>
-      <p class="card-text">1: 아아아아</p>
-    </div>
-    <div class="card-container">
-      <div class="card-img"></div>
-      <p class="card-text">1: 아아아아</p>
+    <div class="container">
+      <form action="">
+        <!-- form 태그에 속성을 잘 안씀 요즘엔 -->
+  
+        <input
+          type="number"
+          name="page"
+          id="page"
+          placeholder="페이지"
+          required
+        />
+  
+        <input
+          type="number"
+          name="limit"
+          id="limit"
+          placeholder="출력개수"
+          required
+        />
+  
+        <button type="submit">전송</button>
+      </form>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-img"></div>
+          <p class="card-text">1: 아아아아</p>
+        </div>
+        <div class="card">
+          <div class="card-img"></div>
+          <p class="card-text">1: 아아아아</p>
+        </div>
+        <div class="card">
+          <div class="card-img"></div>
+          <p class="card-text">1: 아아아아</p>
+        </div>
+        <div class="card">
+          <div class="card-img"></div>
+          <p class="card-text">1: 아아아아</p>
+        </div>
     </div>
   </body>
 </html>

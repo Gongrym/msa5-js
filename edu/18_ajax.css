@@ -1,4 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid #000;
+  background-color: #eb5d5d;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.card-img {
+  background-image: url("/tng/images\ \(1\).jpg");
+  padding-top: 66%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

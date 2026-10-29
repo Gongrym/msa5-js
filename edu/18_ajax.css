@@ -22,7 +22,7 @@
 }
 
 .card-img {
-  background-image: url("/tng/images\ \(1\).jpg");
+  /* background-image: url("/tng/images\ \(1\).jpg"); */
   padding-top: 66%;
   background-size: cover;
   background-position: center;

@@ -20,4 +20,5 @@ const resetBtn = document.querySelector(".reset-btn");
 
 nextBtn.addEventListener("click", () => {
   const baseURL = "https://picsum.photos/v2/list";
+  const 
 });
